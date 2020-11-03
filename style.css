@@ -1,55 +1,23 @@
-body {
-    background-color: #b33131;
-    color: black;
-    word-spacing: 10px;
-    text-shadow: 3px 3px #ff0000;
-}
-h1, h2 {
-    font-family: 'Russo One', sans-serif;
+.buttons {
+    height: 40px;
+    width: 80px;
+    border: 1px solid teal;
+    border-radius: 5%;
+    margin: 10px;
+  }
+  
+  .buttons:hover {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    transform: scale(1.2);
+    border: 2px solid teal;
+  }
+  
+  body {
     text-align: center;
-}
-
-h1 {
-    font-size: 50px;
-    text-shadow: 3px 3px #ff0000;
-}
-
-h2 {
+    background-color: blue;
+  }
+  
+  #info {
     font-size: 20px;
-    text-shadow: 2px 2px #ff0000;
-}
-
-button {
-    font-family: 'Fredoka One', cursive;
-    outline: none;
-    background-color: black;
-    font-size: 15px;
-    margin: 150px 100px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    color: #00cc00;
-    box-shadow: 4px 4px #ff0000;
-    
-}
-
-#btn {
-    
-        width: auto;
-        height: auto;
-        display:inline-block;
-        background-color: red;
-}
-
-button:hover {
-    background-color:  #00cc00;
-    color: black;
-}
-
-#countResult {
-    font-family: 'Russo One', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    color: black;
-    text-shadow: 1px 1px #ff0000;
-}
+  }
